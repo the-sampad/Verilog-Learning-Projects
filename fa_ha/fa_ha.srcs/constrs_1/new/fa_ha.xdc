@@ -1,0 +1,5 @@
+set_property IOSTANDARD LVCMOS33 [get_ports cin]
+set_property IOSTANDARD LVCMOS33 [get_ports cout]
+set_property IOSTANDARD LVCMOS33 [get_ports sum]
+set_property IOSTANDARD LVCMOS33 [get_ports x]
+set_property IOSTANDARD LVCMOS33 [get_ports y]

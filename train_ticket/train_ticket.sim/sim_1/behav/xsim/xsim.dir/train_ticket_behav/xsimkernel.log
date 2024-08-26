@@ -1,0 +1,7 @@
+Running: xsim.dir/train_ticket_behav/xsimk.exe -simmode gui -wdb train_ticket_behav.wdb -simrunnum 0 -socket 50083
+Design successfully loaded
+Design Loading Memory Usage: 7120 KB (Peak: 7120 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 7732 KB (Peak: 7732 KB)
+Simulation CPU Usage: 15 ms

@@ -1,0 +1,8 @@
+set_property IOSTANDARD LVCMOS33 [get_ports b]
+set_property IOSTANDARD LVCMOS33 [get_ports diff]
+set_property IOSTANDARD LVCMOS33 [get_ports y]
+set_property IOSTANDARD LVCMOS33 [get_ports x]
+set_property PACKAGE_PIN T15 [get_ports diff]
+set_property PACKAGE_PIN V16 [get_ports b]
+set_property PACKAGE_PIN U18 [get_ports x]
+set_property PACKAGE_PIN T18 [get_ports y]

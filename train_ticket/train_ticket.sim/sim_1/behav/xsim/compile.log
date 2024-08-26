@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado designs/train_ticket/train_ticket.srcs/sources_1/new/train_ticket.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module train_ticket
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado designs/train_ticket/train_ticket.srcs/sim_1/new/train_ticket_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module train_ticket_tb
