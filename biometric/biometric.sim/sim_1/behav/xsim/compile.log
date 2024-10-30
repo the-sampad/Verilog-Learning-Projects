@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado designs/biometric/biometric.srcs/sources_1/new/biometric.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module biometric
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado designs/biometric/biometric.srcs/sim_1/new/biometric_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module biometric_tb

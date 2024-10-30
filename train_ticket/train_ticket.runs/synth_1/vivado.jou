@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Dec  5 01:45:55 2022
+# Process ID: 2852
+# Current directory: F:/Vivado designs/train_ticket/train_ticket.runs/synth_1
+# Command line: vivado.exe -log train_ticket.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source train_ticket.tcl
+# Log file: F:/Vivado designs/train_ticket/train_ticket.runs/synth_1/train_ticket.vds
+# Journal file: F:/Vivado designs/train_ticket/train_ticket.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source train_ticket.tcl -notrace

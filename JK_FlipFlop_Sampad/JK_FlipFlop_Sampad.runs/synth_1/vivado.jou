@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Oct 26 19:40:45 2022
+# Process ID: 8896
+# Current directory: F:/Vivado designs/JK_FlipFlop_Sampad/JK_FlipFlop_Sampad.runs/synth_1
+# Command line: vivado.exe -log jk_flipflop.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source jk_flipflop.tcl
+# Log file: F:/Vivado designs/JK_FlipFlop_Sampad/JK_FlipFlop_Sampad.runs/synth_1/jk_flipflop.vds
+# Journal file: F:/Vivado designs/JK_FlipFlop_Sampad/JK_FlipFlop_Sampad.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source jk_flipflop.tcl -notrace

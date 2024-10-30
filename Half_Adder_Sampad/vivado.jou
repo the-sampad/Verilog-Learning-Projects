@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Oct 20 10:19:37 2022
+# Process ID: 19200
+# Current directory: F:/Vivado designs/Half_Adder_Sampad
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18836 F:\Vivado designs\Half_Adder_Sampad\Half_Adder_Sampad.xpr
+# Log file: F:/Vivado designs/Half_Adder_Sampad/vivado.log
+# Journal file: F:/Vivado designs/Half_Adder_Sampad\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/Vivado designs/Half_Adder_Sampad/Half_Adder_Sampad.xpr}
+update_compile_order -fileset sources_1

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov  4 09:30:22 2022
+# Process ID: 544
+# Current directory: F:/Vivado designs/seq_det_mealy
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5640 F:\Vivado designs\seq_det_mealy\seq_det_mealy.xpr
+# Log file: F:/Vivado designs/seq_det_mealy/vivado.log
+# Journal file: F:/Vivado designs/seq_det_mealy\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/Vivado designs/seq_det_mealy/seq_det_mealy.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source seq_det_mealy_tb.tcl
+close_sim

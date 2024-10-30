@@ -1,0 +1,1 @@
+-wto "c68e0f8db7534cd09dba263ede7456f8" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "biometric_behav" "xil_defaultlib.biometric" "xil_defaultlib.glbl" -log "elaborate.log" 

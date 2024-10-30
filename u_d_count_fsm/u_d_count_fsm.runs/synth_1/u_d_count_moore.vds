@@ -1,0 +1,287 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov  3 14:23:54 2022
+# Process ID: 1392
+# Current directory: F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.runs/synth_1
+# Command line: vivado.exe -log u_d_count_moore.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source u_d_count_moore.tcl
+# Log file: F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.runs/synth_1/u_d_count_moore.vds
+# Journal file: F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source u_d_count_moore.tcl -notrace
+Command: synth_design -top u_d_count_moore -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16644 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 408.543 ; gain = 96.402
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'u_d_count_moore' [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:22]
+	Parameter s0 bound to: 4'b0000 
+	Parameter s1 bound to: 4'b0001 
+	Parameter s2 bound to: 4'b0010 
+	Parameter s3 bound to: 4'b0011 
+	Parameter s4 bound to: 4'b0100 
+	Parameter s5 bound to: 4'b0101 
+	Parameter s6 bound to: 4'b0110 
+	Parameter s7 bound to: 4'b0111 
+	Parameter s8 bound to: 4'b1000 
+	Parameter s9 bound to: 4'b1001 
+WARNING: [Synth 8-567] referenced signal 'x' should be on the sensitivity list [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:147]
+WARNING: [Synth 8-5788] Register ps_reg in module u_d_count_moore is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:45]
+INFO: [Synth 8-6155] done synthesizing module 'u_d_count_moore' (1#1) [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:22]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 463.758 ; gain = 151.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 463.758 ; gain = 151.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 463.758 ; gain = 151.617
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:149]
+WARNING: [Synth 8-327] inferring latch for variable 'ns_reg' [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:60]
+WARNING: [Synth 8-327] inferring latch for variable 'count_reg' [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:150]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 463.758 ; gain = 151.617
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 2     
+	  11 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module u_d_count_moore 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 2     
+	  11 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3332] Sequential element (ns_reg[3]) is unused and will be removed from module u_d_count_moore.
+WARNING: [Synth 8-3332] Sequential element (ns_reg[2]) is unused and will be removed from module u_d_count_moore.
+WARNING: [Synth 8-3332] Sequential element (ns_reg[1]) is unused and will be removed from module u_d_count_moore.
+WARNING: [Synth 8-3332] Sequential element (ns_reg[0]) is unused and will be removed from module u_d_count_moore.
+WARNING: [Synth 8-3332] Sequential element (count_reg[0]) is unused and will be removed from module u_d_count_moore.
+WARNING: [Synth 8-3332] Sequential element (count_reg[1]) is unused and will be removed from module u_d_count_moore.
+WARNING: [Synth 8-3332] Sequential element (count_reg[2]) is unused and will be removed from module u_d_count_moore.
+WARNING: [Synth 8-3332] Sequential element (count_reg[3]) is unused and will be removed from module u_d_count_moore.
+WARNING: [Synth 8-3332] Sequential element (count_reg[0]__0) is unused and will be removed from module u_d_count_moore.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'count_reg[0]__0/Q' [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:48]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:48]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:48]
+WARNING: [Synth 8-3332] Sequential element (count_reg[1]__0) is unused and will be removed from module u_d_count_moore.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'count_reg[1]__0/Q' [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:48]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:48]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:48]
+WARNING: [Synth 8-3332] Sequential element (count_reg[2]__0) is unused and will be removed from module u_d_count_moore.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'count_reg[2]__0/Q' [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:48]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:48]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:48]
+WARNING: [Synth 8-3332] Sequential element (count_reg[3]__0) is unused and will be removed from module u_d_count_moore.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'count_reg[3]__0/Q' [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:48]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:48]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.srcs/sources_1/new/u_d_count_moore.v:48]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 610.863 ; gain = 298.723
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 610.863 ; gain = 298.723
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 610.895 ; gain = 298.754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 610.895 ; gain = 298.754
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 610.895 ; gain = 298.754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 610.895 ; gain = 298.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 610.895 ; gain = 298.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 610.895 ; gain = 298.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 610.895 ; gain = 298.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |     2|
+|3     |LUT3 |     1|
+|4     |LUT5 |     3|
+|5     |LUT6 |     2|
+|6     |FDCE |     4|
+|7     |FDPE |     1|
+|8     |LDC  |     1|
+|9     |IBUF |     3|
+|10    |OBUF |     5|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    23|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 610.895 ; gain = 298.754
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 12 critical warnings and 16 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 610.895 ; gain = 298.754
+Synthesis Optimization Complete : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 610.895 ; gain = 298.754
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  LDC => LDCE: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+12 Infos, 16 Warnings, 12 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 722.383 ; gain = 422.906
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'F:/Vivado designs/u_d_count_fsm/u_d_count_fsm.runs/synth_1/u_d_count_moore.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file u_d_count_moore_utilization_synth.rpt -pb u_d_count_moore_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 722.383 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  3 14:24:10 2022...

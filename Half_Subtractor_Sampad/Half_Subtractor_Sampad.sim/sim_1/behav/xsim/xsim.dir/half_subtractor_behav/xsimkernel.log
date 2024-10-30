@@ -1,0 +1,7 @@
+Running: xsim.dir/half_subtractor_behav/xsimk.exe -simmode gui -wdb half_subtractor_behav.wdb -simrunnum 0 -socket 51515
+Design successfully loaded
+Design Loading Memory Usage: 6632 KB (Peak: 6632 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 15240 KB (Peak: 15240 KB)
+Simulation CPU Usage: 343 ms

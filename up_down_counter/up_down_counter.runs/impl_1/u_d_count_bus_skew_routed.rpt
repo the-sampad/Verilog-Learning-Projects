@@ -1,0 +1,15 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Oct 28 10:02:32 2022
+| Host         : Sampad-JARVIS running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file u_d_count_bus_skew_routed.rpt -pb u_d_count_bus_skew_routed.pb -rpx u_d_count_bus_skew_routed.rpx
+| Design       : u_d_count
+| Device       : 7a100t-csg324
+| Speed File   : -1  PRODUCTION 1.22 2018-03-21
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+
